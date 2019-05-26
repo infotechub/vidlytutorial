@@ -1,0 +1,20 @@
+﻿@model Vidly.Models.Customer
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+
+<h3>@Model.Name</h3>
+
+<ul><li>
+        @Model.MembershipType.Name</li><li>
+@Model.BirthDate
+    </li>
+</ul>
+
+
+
